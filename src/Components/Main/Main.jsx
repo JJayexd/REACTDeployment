@@ -1,6 +1,7 @@
+import styles from './Main.module.scss'
 export const Main = () => {
     return (
-        <main>
+        <main className={styles.main}>
             <h2>Main</h2>
         </main>
     );

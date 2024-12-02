@@ -1,7 +1,7 @@
 import './App.scss'
-import { Footer } from './Components/Footer'
-import { Header } from './Components/Header'
-import { Main } from './Components/Main'
+import { Footer } from './Components/Footer/Footer'
+import { Header } from './Components/Header/Header'
+import { Main } from './Components/Main/Main'
 
 function App() {
 
