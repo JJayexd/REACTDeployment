@@ -1,12 +1,15 @@
-// import { useState } from 'react'
-import './App.css'
+import './App.scss'
+import { Footer } from './Components/Footer'
+import { Header } from './Components/Header'
+import { Main } from './Components/Main'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <p>Hejsa</p>
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }
