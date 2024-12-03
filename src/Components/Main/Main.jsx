@@ -9,7 +9,7 @@ export const Main = () => {
     return (
         <MainStyled bgcolor="black">
             <h2>Main</h2>
-            <Button clickEvent={eventClick} textValue="Klik" bSize={"64px"} bColor={"red"}></Button>
+            <Button clickEvent={eventClick} textValue="Klik" bSize={"64px"} bTheme={"black"} bgTheme={"white"}></Button>
         </MainStyled>
     );
 };
