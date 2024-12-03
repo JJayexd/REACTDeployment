@@ -1,7 +1,23 @@
 import { ButtonStyled } from "./Button.styled"
 
-export const Button = ({ clickEvent, bSize, bTheme, bgTheme, textValue, }) => {
+export const Button = ({ clickEvent, btnSize, btnTheme, bgTheme, textValue, }) => {
+
+    const getButtonSize = (btnSize) => {
+        switch (btnSize) {
+            default:
+            case "Small":
+                return "10"
+            case "Medium":
+                return "12"
+            case "Large":
+                return "14"
+                
+        }
+    }
+
     return (
-        <button onClick={() =>clickEvent()} style={{width: bSize, color: bTheme, backgroundColor: bgTheme}}>{textValue}</button>
+        <ButtonStyled 
+        onClick={() => clickEvent()} size={getButtonSize(btnSize)}>{textValue}
+        </ButtonStyled>
     )
 }

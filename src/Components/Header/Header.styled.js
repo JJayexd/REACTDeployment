@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
-    background-color: ${props => props.bgcolor};
+    background-color: ${props => props.$bgcolor};
 `;
