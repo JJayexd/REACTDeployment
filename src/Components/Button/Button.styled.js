@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonStyled = styled.button`
-    background-color: ${props => props.bgcolor};
+    color: ${props => props.bColor};
+    background-color: ${props => props.bgColor};
+    width: ${props => props.bSize};
 `;

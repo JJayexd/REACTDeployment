@@ -1,7 +1,7 @@
 import { ButtonStyled } from "./Button.styled"
 
-export const Button = (props) => {
+export const Button = ({ clickEvent, bSize, bColor, textValue, }) => {
     return (
-        <button onClick={ () => props.action() }>{props.textValue}</button>
+        <button onClick={() =>clickEvent()} style={{width: bSize, color: bColor}}>{textValue}</button>
     )
 }
