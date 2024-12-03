@@ -1,7 +1,9 @@
 import './App.scss'
-import { Footer } from './Components/Footer/Footer'
 import { Header } from './Components/Header/Header'
 import { Main } from './Components/Main/Main'
+import { Footer } from './Components/Footer/Footer'
+import { Hilsen } from './Components/Hilsen/Hilsen'
+
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <Hilsen nameValue="Heinz" />
     </>
   )
 }

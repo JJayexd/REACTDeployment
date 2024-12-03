@@ -1,10 +1,10 @@
-import styles from './Header.module.scss'
+import { HeaderStyled } from './Header.styled';
 import { Nav } from '../Nav/Nav';
 export const Header = () => {
     return (
-        <header className={styles.header}>
+        <HeaderStyled bgcolor="red">
             <h1>Header</h1>
             <Nav />
-        </header>
+        </HeaderStyled>
     );
 };
